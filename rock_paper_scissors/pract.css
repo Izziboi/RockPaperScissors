@@ -1,0 +1,162 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: green;
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Horizontally center items */
+  align-items: center; /* Vertically center items */
+  height: 100vh; /* Set body height to full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.css-main-div {
+  background-color: burlywood;
+  width: 550px; /* Set width of the div */
+  height: 600px; /* Set height of the div */
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.css-rock-btn,
+.css-paper-btn,
+.css-scissors-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.css-rock-img,
+.css-paper-img,
+.css-scissors-img {
+  cursor: pointer;
+}
+
+.css-rock-img,
+.css-paper-img,
+.css-scissors-img,
+.css-result-img-div > img {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.css-img-label-div > p {
+  margin-top: -5px;
+}
+
+.css-title-p {
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.css-lead-info-p {
+  margin-left: 20px;
+}
+
+.css-title-p,
+.css-result-p {
+  font-weight: 600;
+  color: rgb(6, 159, 241);
+}
+
+.css-result-p {
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.css-btns-div {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  column-gap: 10px;
+  row-gap: 5px;
+  align-items: center;
+}
+
+.css-cell-div {
+  display: grid;
+  align-self: center;
+}
+
+.css-clear-btn {
+  height: 30px;
+  border-width: 0px;
+  background-color: rgb(202, 20, 20);
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.css-img-label-div {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 10px;
+  row-gap: 5px;
+  align-items: stretch;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.css-result-img-div {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 10px;
+  margin-left: 80px;
+}
+
+.css-result-info-div > p {
+  margin-left: 120px;
+}
+
+.css-summary-div {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.css-summary-div > div {
+  display: inline-block;
+}
+
+.css-lost-div,
+.css-drew-div {
+  margin-left: 50px;
+}
+
+.css-won-div,
+.css-won-p {
+  color: green;
+}
+
+.css-lost-div,
+.css-lost-p {
+  color: rgb(202, 20, 20);
+}
+
+.css-drew-div,
+.css-nowinner-p {
+  color: purple;
+}
+
+.css-won-div,
+.css-lost-div,
+.css-drew-div {
+  font-weight: 600;
+}
+
+.css-result-head-div {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  column-gap: 10px;
+  row-gap: 5px;
+  align-items: stretch;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+
+.css-result-head-div > p {
+  color: dodgerblue;
+}
